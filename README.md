@@ -20,4 +20,4 @@ Modified from SimHubSDKDemo, save game data into csv file, add raw logitech G29 
 * ***TimeJumped***: if current lap time jumped too much (>1s) from last update. Since recovery vehicle leads to penalty time, this can indicate whether the player goes off road
 
 # set up instruction
-Repace DataPluginDemo.cs in folder "C:\Program Files (x86)\SimHub\PluginSdk\User.PluginSdkDemo" with the file in this project, open the .sln file and regenerate project. Then open SimHub, the csv file will appear on desktop (remember to modify the filepath in init()) and start recording data, and it will stop and be closed when SimHub is closed. 
+Replace DataPluginDemo.cs in folder "C:\Program Files (x86)\SimHub\PluginSdk\User.PluginSdkDemo" with the file in this project, open the .sln file and regenerate project. Then open SimHub, the csv file will appear on desktop (remember to modify the filepath in init()) and start recording data, and it will stop and be closed when SimHub is closed. 
